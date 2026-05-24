@@ -35,12 +35,10 @@ Linux: source .venv/bin/activate
 PowerShell: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
-## Ambiente Orden
+## Ejecutar Ambiente
 ```yml
 Entorno Virtual: python -m venv .venv
 Windows PS: .venv\Scripts\activate
-Windows PS: .venv\Scripts\Activate.ps1
-Windows CMD: .venv\Scripts\activate.bat
 Verificar Entorno: python -m site
 Requerimientos: pip install -r requirements.txt
 ```
