@@ -18,7 +18,7 @@ def normalize_text(value: str) -> str:
 
 
 def compact_name(value: str) -> str:
-    """Retorna una versión corta para detectar transbordos por nombres similares."""
+    """Devolver una versión corta para detectar transbordos por nombres similares."""
 
     text = normalize_text(value)
     removable_words = {
