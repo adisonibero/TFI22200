@@ -62,12 +62,12 @@ El sistema de transporte se representa como un grafo:
 
 Sobre la terminal navegar hasta la carpeta `activity_2` para ejecutar los comandos necesarios:
 
-| Algoritmo | Ejemplo | Comando |
-|---|---|---|
-| `dijkstra` | `Portal Suba` a `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo dijkstra` |
-| `astar`    | `Portal Suba` a `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo astar`    |
-| `bfs`      | `Portal Suba` a `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo bfs`      |
-| `dfs`      | `Portal Suba` a `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo dfs`      |
+| Algoritmo | Origen | Destino | Comando |
+|---|---|---|---|
+| `dijkstra` | `Portal Suba` | `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo dijkstra` |
+| `astar`    | `Portal Suba` | `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo astar`    |
+| `bfs`      | `Portal Suba` | `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo bfs`      |
+| `dfs`      | `Portal Suba` | `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo dfs`      |
 
 ## Guias
 
@@ -105,3 +105,14 @@ activity_2/
 5. El motor de inferencia consulta la base de conocimiento.
 6. El algoritmo de búsqueda calcula la ruta.
 7. El programa imprime el resultado en formato JSON.
+
+## Pruebas Ejecutadas
+
+Sobre la terminal navegar hasta la carpeta `activity_2` para ejecutar los comandos necesarios:
+
+| Algoritmo | Origen | Destino | Comando |
+|---|---|---|---|
+| `dijkstra` | `Portal Suba`      | `Portal Américas` | `python main.py --origen "Portal Suba" --destino "Portal Américas" --algoritmo dijkstra` |
+| `astar`    | `Portal del Norte` | `Universidades`   | `python main.py --origen "Portal del Norte" --destino "Universidades" --algoritmo astar` |
+| `bfs`      | `Terminal`         | `Museo del Oro`   | `python main.py --origen "Terminal" --destino "Museo del Oro" --algoritmo bfs`           |
+| `dfs`      | `Portal Sur`       | `Portal 80`       | `python main.py --origen "Portal Sur" --destino "Portal 80" --algoritmo dfs`             |
