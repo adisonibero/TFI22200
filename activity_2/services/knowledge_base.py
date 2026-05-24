@@ -1,3 +1,5 @@
+"""Base de conocimiento: carga datos, aplica reglas y construye el grafo."""
+
 import json
 import math
 from collections import defaultdict
@@ -73,6 +75,7 @@ class TransmilenioKnowledgeBase:
         self._build_graph()
 
     def _load(self) -> None:
+        """Carga estaciones desde el archivo JSON en memoria."""
         data = json.loads(self.json_path.read_text(encoding="utf-8"))
         for marker in data.get("markers", []):
             line = marker.get("line", {}) or {}
@@ -87,6 +90,7 @@ class TransmilenioKnowledgeBase:
             self.stations[station.code] = station
 
     def _build_graph(self) -> None:
+        """Ejecuta todas las reglas para construir las conexiones del sistema."""
         self._apply_consecutive_station_rule()
         self._apply_transfer_name_rule()
         self._apply_transfer_distance_rule()
@@ -111,6 +115,7 @@ class TransmilenioKnowledgeBase:
                 )
 
     def _apply_transfer_name_rule(self) -> None:
+        """Conecta estaciones equivalentes por nombre normalizado y alias."""
         groups: Dict[str, List[Station]] = defaultdict(list)
         for station in self.stations.values():
             groups[compact_name(station.name)].append(station)
@@ -131,6 +136,7 @@ class TransmilenioKnowledgeBase:
             self._connect_transfer_group(stations, "R2_transbordo_por_nombre", f"Transbordo reconocido: {label}")
 
     def _apply_transfer_distance_rule(self) -> None:
+        """Conecta estaciones cercanas de lineas distintas como transbordo."""
         stations = list(self.stations.values())
         for i, first in enumerate(stations):
             for second in stations[i + 1 :]:
@@ -176,6 +182,7 @@ class TransmilenioKnowledgeBase:
             )
 
     def _connect_transfer_group(self, stations: Iterable[Station], rule: str, description: str) -> None:
+        """Conecta pares validos dentro de un grupo de estaciones relacionadas."""
         unique = list({station.code: station for station in stations}.values())
         for i, first in enumerate(unique):
             for second in unique[i + 1 :]:
@@ -183,17 +190,20 @@ class TransmilenioKnowledgeBase:
                     self._connect(first.code, second.code, 2.0, rule, description)
 
     def _connect(self, source: str, target: str, cost: float, rule: str, description: str) -> None:
+        """Crea conexion bidireccional entre source y target."""
         if source == target:
             return
         self._add_edge(source, target, cost, rule, description)
         self._add_edge(target, source, cost, rule, description)
 
     def _add_edge(self, source: str, target: str, cost: float, rule: str, description: str) -> None:
+        """Agrega una arista evitando duplicados con la misma regla."""
         if any(edge.target == target and edge.rule == rule for edge in self.graph[source]):
             return
         self.graph[source].append(Edge(target=target, cost=round(cost, 4), rule=rule, description=description))
 
     def distance(self, source: str, target: str) -> float:
+        """Calcula distancia euclidiana entre dos estaciones."""
         first = self.stations[source]
         second = self.stations[target]
         return math.hypot(first.x - second.x, first.y - second.y)
@@ -237,6 +247,7 @@ class TransmilenioKnowledgeBase:
         raise ValueError(f"No se encontró la estación '{text}'.")
 
     def list_stations(self) -> List[Dict[str, str]]:
+        """Retorna estaciones ordenadas para listados o interfaces externas."""
         return [
             {
                 "code": station.code,
@@ -248,7 +259,9 @@ class TransmilenioKnowledgeBase:
         ]
 
     def describe_rules(self) -> List[Dict[str, str]]:
+        """Expone reglas con nombre, condicion y accion."""
         return [rule.__dict__ for rule in self.rules]
 
     def rule_names(self) -> List[str]:
+        """Retorna solo los nombres de las reglas activas."""
         return [rule.name for rule in self.rules]

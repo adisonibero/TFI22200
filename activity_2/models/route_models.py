@@ -1,3 +1,5 @@
+"""Modelos de datos para estaciones, conexiones y resultados de rutas."""
+
 from dataclasses import dataclass, field
 import math
 from typing import Dict, List, Optional
@@ -52,6 +54,7 @@ class RouteResult:
     message: Optional[str] = None
 
     def to_dict(self) -> Dict:
+        """Serializa el resultado en un formato listo para respuesta JSON."""
         return {
             "origin": self.origin,
             "destination": self.destination,

@@ -1,3 +1,5 @@
+"""Implementacion de BFS, DFS, Dijkstra y A* para el grafo de estaciones."""
+
 import heapq
 from collections import deque
 from math import inf
@@ -11,6 +13,7 @@ class SearchAlgorithms:
 
     @staticmethod
     def bfs(graph: Dict[str, List[Edge]], start: str, goal: str) -> Tuple[List[str], float, int]:
+        """Busqueda en anchura priorizando la menor cantidad de pasos."""
         queue = deque([(start, [start], 0.0)])
         visited: Set[str] = {start}
         expanded = 0
@@ -28,6 +31,7 @@ class SearchAlgorithms:
 
     @staticmethod
     def dfs(graph: Dict[str, List[Edge]], start: str, goal: str) -> Tuple[List[str], float, int]:
+        """Busqueda en profundidad sobre el grafo."""
         stack = [(start, [start], 0.0)]
         visited: Set[str] = set()
         expanded = 0
@@ -47,6 +51,7 @@ class SearchAlgorithms:
 
     @staticmethod
     def dijkstra(graph: Dict[str, List[Edge]], start: str, goal: str) -> Tuple[List[str], float, int]:
+        """Busqueda de costo minimo sin heuristica."""
         return SearchAlgorithms._weighted_search(graph, start, goal, lambda _node: 0.0)
 
     @staticmethod
@@ -56,6 +61,7 @@ class SearchAlgorithms:
         goal: str,
         heuristic: Callable[[str], float],
     ) -> Tuple[List[str], float, int]:
+        """Busqueda A* combinando costo acumulado y heuristica."""
         return SearchAlgorithms._weighted_search(graph, start, goal, heuristic)
 
     @staticmethod
@@ -65,6 +71,7 @@ class SearchAlgorithms:
         goal: str,
         heuristic: Callable[[str], float],
     ) -> Tuple[List[str], float, int]:
+        """Nucleo compartido para Dijkstra y A* usando cola de prioridad."""
         open_heap: List[Tuple[float, float, str]] = [(heuristic(start), 0.0, start)]
         came_from: Dict[str, Optional[str]] = {start: None}
         cost_so_far: Dict[str, float] = {start: 0.0}
@@ -90,6 +97,7 @@ class SearchAlgorithms:
 
     @staticmethod
     def _reconstruct_path(came_from: Dict[str, Optional[str]], goal: str) -> List[str]:
+        """Reconstruye la ruta final desde el objetivo hasta el origen."""
         path = [goal]
         current = goal
         while came_from[current] is not None:

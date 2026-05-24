@@ -1,3 +1,5 @@
+"""CLI para consultar rutas de TransMilenio con varios algoritmos de busqueda."""
+
 import argparse
 import json
 from typing import List
@@ -51,6 +53,7 @@ def show_rules() -> None:
 
 
 def parse_args() -> argparse.Namespace:
+    """Construye y parsea los argumentos de linea de comandos."""
     parser = argparse.ArgumentParser(
         description="Actividad 2: búsqueda y sistema basado en reglas para rutas de TransMilenio."
     )
@@ -78,6 +81,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def main() -> None:
+    """Punto de entrada principal del programa en modo terminal."""
     args = parse_args()
 
     try:

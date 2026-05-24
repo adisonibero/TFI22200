@@ -1,3 +1,5 @@
+"""Funciones auxiliares para normalizar texto y comparar nombres de estaciones."""
+
 import re
 import unicodedata
 
