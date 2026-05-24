@@ -1,4 +1,4 @@
-<h1 align="center">🔥 Proyecto Backend 🧑‍💻</h1>
+<h1 align="center">🔥 Proyecto Python 🧑‍💻</h1>
 
 ## Introducción
 
