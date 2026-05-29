@@ -23,7 +23,7 @@ Este proyecto implementa un modelo de aprendizaje supervisado en Python para cla
 | `data/transmilenio.json` | Fuente base con estaciones, troncales y coordenadas. |
 | `temp/dataset.csv` | Dataset generado con variables de entrada y etiqueta supervisada. |
 
-## Modelo implementado
+## Modelo Implementado
 
 | Modelo | Librería | Uso |
 |---|---|---|
@@ -61,7 +61,7 @@ Este proyecto implementa un modelo de aprendizaje supervisado en Python para cla
 | Entrenar y evaluar | `python main.py --entrenar` |
 | Ejecutar predicción | `python main.py --predecir --troncal "Suba" --tipo-estacion portal --hora-pico 1 --lluvia 2 --incidentes 1 --demanda 92 --demora 15 --transbordos 1` |
 
-# Datos Descritos
+# Datos Detallados
 
 | Campo | Tipo | Descripción |
 |---|---|---|
@@ -79,7 +79,6 @@ Este proyecto implementa un modelo de aprendizaje supervisado en Python para cla
 | `transbordos_disponibles` | Numérico | Valor 1 cuando hay opción de cambio o conexión. |
 | `estado_servicio` | Texto | Etiqueta supervisada: servicio normal, congestión media o congestión alta. |
 
-
 ## Estructura Organizada
 
 ```txt
@@ -91,8 +90,8 @@ activity_3/
 │   └── transmilenio.csv
 ├── services/
 │   ├── __init__.py
-│   ├── dataset_builder.py
-│   └── supervised_model.py
+│   ├── builder.py
+│   └── model.py
 ├── main.py
 ├── README.md
 └── requirements.txt

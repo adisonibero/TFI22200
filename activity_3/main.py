@@ -6,8 +6,8 @@ import argparse
 import json
 from pathlib import Path
 
-from services.dataset_builder import build_supervised_dataset
-from services.supervised_model import FEATURE_COLUMNS, SupervisedTransitModel
+from activity_3.services.builder import build_dataset
+from activity_3.services.model import FEATURE_COLUMNS, TransitModel
 
 BASE_DIR = Path(__file__).resolve().parent
 SOURCE_JSON = BASE_DIR / "data" / "transmilenio.json"
@@ -23,19 +23,19 @@ def print_json(data: dict) -> None:
 def ensure_dataset() -> None:
     """Crea el dataset cuando todavía no existe."""
     if not DATASET_CSV.exists():
-        build_supervised_dataset(SOURCE_JSON, DATASET_CSV)
+        build_dataset(SOURCE_JSON, DATASET_CSV)
 
 
 def generate_dataset() -> None:
     """Genera el archivo CSV con datos etiquetados."""
-    dataframe = build_supervised_dataset(SOURCE_JSON, DATASET_CSV)
+    dataframe = build_dataset(SOURCE_JSON, DATASET_CSV)
     print_json({"mensaje": "Dataset supervisado generado", "archivo": str(DATASET_CSV), "registros": len(dataframe)})
 
 
 def train_model() -> None:
     """Entrena el árbol de decisión y guarda las métricas."""
     ensure_dataset()
-    model = SupervisedTransitModel(DATASET_CSV)
+    model = TransitModel(DATASET_CSV)
     metrics = model.train_and_evaluate()
     OUTPUT_DIR.mkdir(exist_ok=True)
     (OUTPUT_DIR / "metricas.json").write_text(
@@ -47,7 +47,7 @@ def train_model() -> None:
 def predict_sample(args: argparse.Namespace) -> None:
     """Entrena el modelo y clasifica un caso ingresado por terminal."""
     ensure_dataset()
-    model = SupervisedTransitModel(DATASET_CSV)
+    model = TransitModel(DATASET_CSV)
     model.train_and_evaluate()
     sample = {
         "troncal": args.troncal,

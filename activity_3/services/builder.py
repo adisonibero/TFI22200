@@ -52,7 +52,7 @@ def _label_service(row: dict) -> str:
     return "servicio_normal"
 
 
-def build_supervised_dataset(source_json: Path, output_csv: Path) -> pd.DataFrame:
+def build_dataset(source_json: Path, output_csv: Path) -> pd.DataFrame:
     """Crea un dataset etiquetado a partir de las estaciones de TransMilenio."""
     with source_json.open("r", encoding="utf-8") as file:
         data = json.load(file)

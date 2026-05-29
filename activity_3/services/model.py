@@ -29,7 +29,7 @@ CATEGORICAL_COLUMNS = ["troncal", "tipo_estacion"]
 NUMERIC_COLUMNS = [column for column in FEATURE_COLUMNS if column not in CATEGORICAL_COLUMNS]
 
 
-class SupervisedTransitModel:
+class TransitModel:
     """Entrena y evalúa un árbol de decisión sobre datos etiquetados."""
 
     def __init__(self, csv_path: Path) -> None:
