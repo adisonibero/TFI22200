@@ -114,5 +114,5 @@ activity_3/
 | 2 | `python main.py --entrenar` | Entrena el árbol de decisión y muestra exactitud, matriz de confusión y reporte de clasificación. |
 | 3 | `python main.py --predecir --troncal "Suba" --tipo-estacion portal --hora-pico 1 --lluvia 2 --incidentes 1 --demanda 92 --demora 15 --transbordos 1` | Predice el estado del servicio para un caso de alta demanda. |
 | 4 | `python main.py --predecir --troncal "Calle 80" --tipo-estacion station --hora-pico 0 --lluvia 0 --incidentes 0 --demanda 45 --demora 3 --transbordos 0` | Predice el estado del servicio para un caso estable. |
-| 5 | `python main.py --predecir --troncal "Caracas" --tipo-estacion station --hora-pico 1 --lluvia 1 --incidentes 0 --demanda 70 --demora 8 --transbordos 2` | Predice el estado del servicio para un caso de congestión media. |
-| 6 | `python main.py --predecir --troncal "Américas" --tipo-estacion portal --hora-pico 1 --lluvia 2 --incidentes 2 --demanda 96 --demora 20 --transbordos 3` | Predice el estado del servicio para un caso crítico de alta congestión. |
+| 5 | `python main.py --predecir --troncal "Caracas" --tipo-estacion station --hora-pico 1 --lluvia 1 --incidentes 0 --demanda 70 --demora 8 --transbordos 1` | Predice el estado del servicio para un caso de congestión media. |
+| 6 | `python main.py --predecir --troncal "Américas" --tipo-estacion portal --hora-pico 1 --lluvia 2 --incidentes 2 --demanda 96 --demora 20 --transbordos 1` | Predice el estado del servicio para un caso crítico de alta congestión. |
