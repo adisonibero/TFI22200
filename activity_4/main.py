@@ -6,8 +6,8 @@ import argparse
 import json
 from pathlib import Path
 
-from activity_4.services.builder import build_dataset
-from activity_4.services.model import TransitModel
+from services.builder import build_dataset
+from services.model import TransitModel
 
 BASE_DIR = Path(__file__).resolve().parent
 SOURCE_JSON = BASE_DIR / "data" / "transmilenio.json"
