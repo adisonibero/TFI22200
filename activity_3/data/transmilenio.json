@@ -1,0 +1,2320 @@
+{
+  "base_image": {
+    "id": 2,
+    "width": 1921,
+    "height": 1081,
+    "url": "https://tramites.transmilenio.gov.co/storage/station-maps/base-images/optimized/8dbfa6a2-eef7-4b77-a241-6ff8159a2796.jpg",
+    "initial_zoom_offset": 0,
+    "viewer_height_vh": 67,
+    "marker_offset_px": 0,
+    "station_size_px": 14,
+    "portal_size_px": 20
+  },
+  "markers": [
+    {
+      "id": 1,
+      "code": "TM0031",
+      "name": "Terminal",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.11784,
+      "y_pct": 0.71674,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/0cc59174-75c0-45ec-bb30-9fa8217fed64.jpg"
+    },
+    {
+      "id": 2,
+      "code": "TM0030",
+      "name": "Calle 187",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.13693,
+      "y_pct": 0.71823,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/e40eac96-4d2b-4af6-886d-f4824f1cb61f.jpg"
+    },
+    {
+      "id": 3,
+      "code": "TM0029",
+      "name": "Portal del Norte - Unicervantes",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.15534,
+      "y_pct": 0.7143,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/3db25d17-a691-4c2a-b349-ad301bdacc06.jpg"
+    },
+    {
+      "id": 4,
+      "code": "TM0028",
+      "name": "Toberín",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.17227,
+      "y_pct": 0.71823,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/ec8c18e2-a1bd-4c78-91ff-969f11fc77bf.jpg"
+    },
+    {
+      "id": 5,
+      "code": "TM0027",
+      "name": "Calle 161",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.1897,
+      "y_pct": 0.71782,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/43e7f021-cdc0-454a-a33e-3ca314074635.jpg"
+    },
+    {
+      "id": 6,
+      "code": "TM0026",
+      "name": "Mazurén",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.20644,
+      "y_pct": 0.71981,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/959278d0-d308-457c-ac1e-fae70f83ecf5.jpg"
+    },
+    {
+      "id": 7,
+      "code": "TM0025",
+      "name": "Calle 146",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.22318,
+      "y_pct": 0.71881,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/fd53c196-fc33-476b-9f48-840bd317b2e3.jpg"
+    },
+    {
+      "id": 8,
+      "code": "TM0024",
+      "name": "Calle 142",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.23992,
+      "y_pct": 0.71981,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/015ead88-c4ec-4a0f-af83-b60fc9f265bd.jpg"
+    },
+    {
+      "id": 9,
+      "code": "TM0023",
+      "name": "Alcalá - Colegio S.Tomás Dominicos",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.25777,
+      "y_pct": 0.7208,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/4b3cc4b1-1a42-49d8-9d67-7b2ad80571d3.jpg"
+    },
+    {
+      "id": 10,
+      "code": "TM0022",
+      "name": "Prado",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.27395,
+      "y_pct": 0.71881,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/d6ed903c-0fe5-460a-9f11-2dfb297b50fa.jpg"
+    },
+    {
+      "id": 11,
+      "code": "TM0021",
+      "name": "Calle 127",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.2918,
+      "y_pct": 0.71981,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/6b1198c2-8974-476d-b62a-56dbd1f1f074.jpg"
+    },
+    {
+      "id": 12,
+      "code": "TM0020",
+      "name": "Pepe Sierra",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.30854,
+      "y_pct": 0.71881,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/f4e45196-24e4-4f35-8a49-013e4f75f50a.jpg"
+    },
+    {
+      "id": 13,
+      "code": "TM0019",
+      "name": "Calle 106 - Maletas Explora",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.32639,
+      "y_pct": 0.71881,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/8d663ed8-063a-45e2-b0cb-79cb111b5d31.jpg"
+    },
+    {
+      "id": 14,
+      "code": "TM0018",
+      "name": "Calle 100 - Marketmedios",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.34313,
+      "y_pct": 0.71683,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9371c086-1baf-4935-b3cd-0abadc60b449.jpg"
+    },
+    {
+      "id": 15,
+      "code": "TM0017",
+      "name": "Virrey",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.3621,
+      "y_pct": 0.71782,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/ebf72998-1fb8-41db-b908-9e9e3a41b215.jpg"
+    },
+    {
+      "id": 16,
+      "code": "TM0016",
+      "name": "Calle 85 - Gato Dumas",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.3833,
+      "y_pct": 0.71881,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/381d9a42-56f1-4597-ae01-5768653f7f6f.jpg"
+    },
+    {
+      "id": 17,
+      "code": "TM0015",
+      "name": "Héroes",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.40171,
+      "y_pct": 0.72179,
+      "line": {
+        "id": 2,
+        "name": "Autonorte",
+        "color": "#95B734"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/7259cfa7-bb8f-4409-9a89-12e0972a43b8.jpg"
+    },
+    {
+      "id": 18,
+      "code": "TM0045",
+      "name": "Portal Suba",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.20309,
+      "y_pct": 0.35293,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/f5c0b3c1-47e4-4e9b-80e6-0d2f0a08bb21.jpg"
+    },
+    {
+      "id": 19,
+      "code": "TM0044",
+      "name": "La Campiña",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.20309,
+      "y_pct": 0.38267,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/4d53e752-1ee6-4e9a-8605-f527ac286f6c.jpg"
+    },
+    {
+      "id": 20,
+      "code": "TM0043",
+      "name": "Suba - TV. 91",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.20365,
+      "y_pct": 0.40746,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/105afa17-9825-410a-82b4-29d86764fc77.jpg"
+    },
+    {
+      "id": 21,
+      "code": "TM0042",
+      "name": "21 ángeles",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.20253,
+      "y_pct": 0.43324,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/93f04275-b34c-486f-a642-932197adb242.jpg"
+    },
+    {
+      "id": 22,
+      "code": "TM0041",
+      "name": "Gratamira",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.20309,
+      "y_pct": 0.45803,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/5560a811-8911-428f-b7df-ab2f5273f730.jpg"
+    },
+    {
+      "id": 23,
+      "code": "TM0040",
+      "name": "Suba -  AV. Boyacá",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.20923,
+      "y_pct": 0.49174,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/3eeedc02-1561-4f13-84b4-8bbc2101a161.jpg"
+    },
+    {
+      "id": 24,
+      "code": "TM0039",
+      "name": "Niza - Calle 127",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.22541,
+      "y_pct": 0.52348,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/75b3616f-fbab-42c7-9a92-d55212039340.jpg"
+    },
+    {
+      "id": 25,
+      "code": "TM0038",
+      "name": "Humedal Córdoba",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.24271,
+      "y_pct": 0.55719,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/ca31c1a0-a1ad-4091-80fc-08a3deaf61b8.jpg"
+    },
+    {
+      "id": 26,
+      "code": "TM0037",
+      "name": "Av. Suba Calle 116",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.26502,
+      "y_pct": 0.56314,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/4a07a7a8-417f-4fc7-987c-781e5dac0c32.jpg"
+    },
+    {
+      "id": 27,
+      "code": "TM0036",
+      "name": "Puentelargo",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.28622,
+      "y_pct": 0.56314,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/1ad57e37-94c9-436e-847b-853518ad69b9.jpg"
+    },
+    {
+      "id": 28,
+      "code": "TM0035",
+      "name": "Suba - CL 100",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.30798,
+      "y_pct": 0.56314,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/8349d875-6a80-4887-89d6-7d251e530090.jpg"
+    },
+    {
+      "id": 29,
+      "code": "TM0034",
+      "name": "Suba - CL 95",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.32472,
+      "y_pct": 0.56512,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/be21290e-c494-4046-822e-26fe66c90fd7.jpg"
+    },
+    {
+      "id": 30,
+      "code": "TM0033",
+      "name": "Rionegro",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.3409,
+      "y_pct": 0.56314,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/59925fd0-3264-4c18-8e6f-d64e058263ed.jpg"
+    },
+    {
+      "id": 31,
+      "code": "TM0032",
+      "name": "San Martín",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.35875,
+      "y_pct": 0.56512,
+      "line": {
+        "id": 3,
+        "name": "Suba",
+        "color": "#EABF3B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/5bd956d4-02cd-427a-b294-2fc9111ea61f.jpg"
+    },
+    {
+      "id": 32,
+      "code": "TM0046",
+      "name": "Polo - FINCOMERCIO",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.40782,
+      "y_pct": 0.6769,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/6f879ae5-6d9e-4ebc-ba81-31a5d8824e12.jpg"
+    },
+    {
+      "id": 33,
+      "code": "TM0047",
+      "name": "Escuela Militar",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.37553,
+      "y_pct": 0.53873,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/03480b49-0633-4a23-bc0b-156ada0c4e69.jpg"
+    },
+    {
+      "id": 34,
+      "code": "TM0048",
+      "name": "Carrera 47",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.36297,
+      "y_pct": 0.51323,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/43191d46-adf3-4730-8369-4f441400a431.jpg"
+    },
+    {
+      "id": 35,
+      "code": "TM0049",
+      "name": "Carrera 53",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.35607,
+      "y_pct": 0.4903,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/0fa19e5b-a931-4391-b1a3-b448b4106ce4.jpg"
+    },
+    {
+      "id": 36,
+      "code": "TM0050",
+      "name": "Avenida 68",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.34409,
+      "y_pct": 0.46439,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/a6bc5074-9122-4990-9588-bc2d8e9fccbc.jpg"
+    },
+    {
+      "id": 37,
+      "code": "TM0051",
+      "name": "Ferias",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.3342,
+      "y_pct": 0.44219,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/893f73e1-614e-48be-a1a2-1ba7e5c2f1dd.jpg"
+    },
+    {
+      "id": 38,
+      "code": "TM0052",
+      "name": "Boyacá",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.32275,
+      "y_pct": 0.41537,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/67f0aeaa-3917-446a-9e0b-eeef566fe58e.jpg"
+    },
+    {
+      "id": 39,
+      "code": "TM0053",
+      "name": "Minuto de Dios",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.31702,
+      "y_pct": 0.38022,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/7a855fba-bd11-4f39-9f59-be45dd6e7813.jpg"
+    },
+    {
+      "id": 40,
+      "code": "TM0054",
+      "name": "Granja - Carrera 77",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.3165,
+      "y_pct": 0.35154,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9a6e0cbd-e2cd-4b20-bb0a-0164b4955d3e.jpg"
+    },
+    {
+      "id": 41,
+      "code": "TM0055",
+      "name": "Avenida Cali",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.31628,
+      "y_pct": 0.32161,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/a602b689-8a6e-42d7-9267-57632a9aa9d1.jpg"
+    },
+    {
+      "id": 42,
+      "code": "TM0056",
+      "name": "Carrera 90",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.31628,
+      "y_pct": 0.2885,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/b16b58e7-c8e9-45d6-af76-281166fc3190.jpg"
+    },
+    {
+      "id": 43,
+      "code": "TM0057",
+      "name": "Quirigua",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.31574,
+      "y_pct": 0.2603,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/be0a6ccb-e891-42ff-9827-4e5fcf5e8ae6.jpg"
+    },
+    {
+      "id": 44,
+      "code": "TM0058",
+      "name": "Portal 80",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.31629,
+      "y_pct": 0.23138,
+      "line": {
+        "id": 4,
+        "name": "Calle 80",
+        "color": "#7B6CA7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/42651f30-6702-48f2-9f55-b67361a7da6e.jpg"
+    },
+    {
+      "id": 45,
+      "code": "TM0059",
+      "name": "La Castellana",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.3688,
+      "y_pct": 0.67421,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/a88b3634-f511-44c0-ab6b-2dd476715d75.jpg"
+    },
+    {
+      "id": 46,
+      "code": "TM0060",
+      "name": "NQS Calle 75",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.41499,
+      "y_pct": 0.56318,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/d7dbbd53-ca78-43ec-8767-a3373570fb2e.jpg"
+    },
+    {
+      "id": 47,
+      "code": "TM0061",
+      "name": "AV. Chile",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.43712,
+      "y_pct": 0.56424,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/2a4e56f1-5d70-4570-b681-120bf430047f.jpg"
+    },
+    {
+      "id": 48,
+      "code": "TM0065",
+      "name": "U. Nacional",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.52382,
+      "y_pct": 0.56531,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/5c4c4eb8-eee9-49b9-8944-4e951e217760.jpg"
+    },
+    {
+      "id": 49,
+      "code": "TM0062",
+      "name": "Simón Bolívar",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.45386,
+      "y_pct": 0.56424,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/ac6dc3bc-7659-4cc1-870a-f65fce1518a3.jpg"
+    },
+    {
+      "id": 50,
+      "code": "TM0063",
+      "name": "Movistar Arena",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.47239,
+      "y_pct": 0.56531,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/ba1567cb-ff26-4460-8a40-fd2f64a010e4.jpg"
+    },
+    {
+      "id": 51,
+      "code": "TM0064",
+      "name": "Campín - Universidad Antonio Nariño",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.49392,
+      "y_pct": 0.56424,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/3dc816b3-f724-4341-90c7-d2ff59e13bbd.jpg"
+    },
+    {
+      "id": 52,
+      "code": "TM0066",
+      "name": "AV. El Dorado",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.5603,
+      "y_pct": 0.56424,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/1cd659a2-3a6f-43b8-b3e5-599acd4d7ee5.jpg"
+    },
+    {
+      "id": 53,
+      "code": "TM0067",
+      "name": "CAD",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.60335,
+      "y_pct": 0.56531,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/73633e6c-4127-4958-8b7f-9d5c7d939bc1.jpg"
+    },
+    {
+      "id": 54,
+      "code": "TM0068",
+      "name": "Paloquemao",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.62428,
+      "y_pct": 0.56318,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/cea864d5-949c-4fb2-8b5d-62d613ce44e1.jpg"
+    },
+    {
+      "id": 55,
+      "code": "TM0069",
+      "name": "Ricaurte (NQS)",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.65657,
+      "y_pct": 0.56318,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/637683ff-1f25-43be-9857-c4b47313055f.jpg"
+    },
+    {
+      "id": 56,
+      "code": "TM0147",
+      "name": "Guatoque - Veraguas",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.7074,
+      "y_pct": 0.63332,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/e4650069-b0e4-41cf-8191-c5f0fe408c9d.jpg"
+    },
+    {
+      "id": 57,
+      "code": "TM0148",
+      "name": "Tygua - San José",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.7086,
+      "y_pct": 0.67902,
+      "line": {
+        "id": 5,
+        "name": "NQS Central",
+        "color": "#9C6C0C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/6fa4355f-6c79-4474-aee0-40c82eaaa646.jpg"
+    },
+    {
+      "id": 58,
+      "code": "TM0001",
+      "name": "Est. Calle 76",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.41749,
+      "y_pct": 0.71971,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/d9f68259-de3b-4c7a-a970-3071ed72190c.jpg"
+    },
+    {
+      "id": 59,
+      "code": "TM0002",
+      "name": "Calle 72",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.43311,
+      "y_pct": 0.71878,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/6e6f90dd-1110-43a4-bacb-cfdb7e7f15e6.jpg"
+    },
+    {
+      "id": 60,
+      "code": "TM0003",
+      "name": "Flores",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.45133,
+      "y_pct": 0.71786,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/1450f920-1742-4ee6-9fff-725fc9531f64.jpg"
+    },
+    {
+      "id": 61,
+      "code": "TM0004",
+      "name": "Calle 63",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.46695,
+      "y_pct": 0.71786,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/2b1a170f-1e86-431d-bd00-3be58fda5edd.jpg"
+    },
+    {
+      "id": 62,
+      "code": "TM0005",
+      "name": "Temporal Calle 57",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.48464,
+      "y_pct": 0.71693,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/6f40fe49-c1c8-44c8-9d32-e0bce6e01cc9.jpg"
+    },
+    {
+      "id": 63,
+      "code": "TM0006",
+      "name": "Temporal Marly",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.50286,
+      "y_pct": 0.71693,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/bd0708db-22b6-4c59-a5b8-52a31548264d.jpg"
+    },
+    {
+      "id": 64,
+      "code": "TM0007",
+      "name": "Calle 45 - American School Way",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.51848,
+      "y_pct": 0.71693,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/620de5b8-51c5-4e35-937f-1f4bda015028.jpg"
+    },
+    {
+      "id": 65,
+      "code": "TM0008",
+      "name": "AV. 39",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.53514,
+      "y_pct": 0.71786,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/1b03697e-9d77-4811-88eb-5746f09c5d63.jpg"
+    },
+    {
+      "id": 66,
+      "code": "TM0009",
+      "name": "Temporal Calle 34",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.55388,
+      "y_pct": 0.71786,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/5825be16-362e-423d-bbd3-ffeddc833d8b.jpg"
+    },
+    {
+      "id": 67,
+      "code": "TM0010",
+      "name": "Calle 26",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.57106,
+      "y_pct": 0.71786,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/5c4e6f87-c66a-40a7-abf1-e9c88e4688b8.jpg"
+    },
+    {
+      "id": 68,
+      "code": "TM0011",
+      "name": "Calle 22",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.60593,
+      "y_pct": 0.71786,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/83dd7bd2-9e2c-47a7-b38e-cbb7a779c60e.jpg"
+    },
+    {
+      "id": 69,
+      "code": "TM0013",
+      "name": "AV. Jiménez (AV. Caracas)",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.65435,
+      "y_pct": 0.71786,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/02cb70fc-cc15-42d3-9994-106638f4eba8.jpg"
+    },
+    {
+      "id": 70,
+      "code": "TM0135",
+      "name": "Portal Eldorado - CC Nuestro Bogotá",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.5502,
+      "y_pct": 0.14276,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/64971afa-305b-43f7-b009-5bc1d117bd37.jpg"
+    },
+    {
+      "id": 71,
+      "code": "TM0134",
+      "name": "Modelia",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.54971,
+      "y_pct": 0.18501,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/f613e602-5587-405b-856e-c68525218ed1.jpg"
+    },
+    {
+      "id": 72,
+      "code": "TM0133",
+      "name": "Normandía",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.54972,
+      "y_pct": 0.22197,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/ce17cb0b-f0d0-4430-b688-d32d78104aee.jpg"
+    },
+    {
+      "id": 73,
+      "code": "TM0132",
+      "name": "AV. Rojas - UNISALESIANA",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.55024,
+      "y_pct": 0.25713,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/b388f40e-baa7-4f1c-bdd5-3227c0e319e5.jpg"
+    },
+    {
+      "id": 74,
+      "code": "TM0131",
+      "name": "El Tiempo - Cámara de Comercio de Bogotá",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.54868,
+      "y_pct": 0.29784,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/cdcc4901-488d-43d5-a112-8c1e7e8c6998.jpg"
+    },
+    {
+      "id": 75,
+      "code": "TM0130",
+      "name": "Salitre - El Greco - Vive Claro",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.54972,
+      "y_pct": 0.33762,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/60d13f48-e1d9-4bcc-aeb3-15e5395c933e.jpg"
+    },
+    {
+      "id": 76,
+      "code": "TM0129",
+      "name": "CAN - British Council",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.5492,
+      "y_pct": 0.37278,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/69f05ac9-2ce8-4308-8777-6b5b2118c84e.jpg"
+    },
+    {
+      "id": 77,
+      "code": "TM0128",
+      "name": "Gobernación",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.55441,
+      "y_pct": 0.40515,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/c54e3993-f0a6-477c-baba-a178d97c5d43.jpg"
+    },
+    {
+      "id": 78,
+      "code": "TM0127",
+      "name": "Quinta Paredes",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.56065,
+      "y_pct": 0.44308,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/4a5bc452-4add-4a19-90e2-7f6851460c7a.jpg"
+    },
+    {
+      "id": 79,
+      "code": "TM0126",
+      "name": "Corferias",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.5669,
+      "y_pct": 0.47084,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/82720723-4b23-4738-8da7-22729730deba.jpg"
+    },
+    {
+      "id": 80,
+      "code": "TM0125",
+      "name": "Ciudad Universitaria - Lotería de Bogotá",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.5747,
+      "y_pct": 0.50229,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/7eb45ea2-a3f5-4f36-ad1c-655700adc416.jpg"
+    },
+    {
+      "id": 81,
+      "code": "TM0124",
+      "name": "Concejo de Bogotá",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.58928,
+      "y_pct": 0.64108,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/f6ab0c15-9bbd-4887-98b2-01eafe56bbd1.jpg"
+    },
+    {
+      "id": 82,
+      "code": "TM0123",
+      "name": "Centro Memoria",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.58876,
+      "y_pct": 0.68178,
+      "line": {
+        "id": 10,
+        "name": "Calle 26",
+        "color": "#cab07c"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/36fa965b-1bab-4857-8091-cfe2568dbe36.jpg"
+    },
+    {
+      "id": 83,
+      "code": "TM0122",
+      "name": "Universidades - CityU",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.61427,
+      "y_pct": 0.89363,
+      "line": {
+        "id": 9,
+        "name": "Eje Ambiental",
+        "color": "#d0a2aa"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9a0b9dce-4cad-4db6-b24a-d2f54e232b18.jpg"
+    },
+    {
+      "id": 84,
+      "code": "TM0121",
+      "name": "Las Aguas - Centro Colombo Americano",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.63041,
+      "y_pct": 0.8853,
+      "line": {
+        "id": 9,
+        "name": "Eje Ambiental",
+        "color": "#d0a2aa"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9847fa09-b6cc-4e3c-8259-31d148bf5c38.jpg"
+    },
+    {
+      "id": 85,
+      "code": "TM0120",
+      "name": "Museo del Oro",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.64186,
+      "y_pct": 0.86495,
+      "line": {
+        "id": 9,
+        "name": "Eje Ambiental",
+        "color": "#d0a2aa"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/73e1752f-365d-41ec-a414-238d98c4e241.jpg"
+    },
+    {
+      "id": 86,
+      "code": "TM0070",
+      "name": "AV. Jiménez (CL13)",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.6494,
+      "y_pct": 0.73109,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/d168011e-844e-4bb1-9c97-4ba2189a1eed.jpg"
+    },
+    {
+      "id": 87,
+      "code": "TM0071",
+      "name": "De La Sabana",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.6494,
+      "y_pct": 0.67902,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9a83d1d2-a4c7-4870-b7f1-af8bb5aeda2a.jpg"
+    },
+    {
+      "id": 88,
+      "code": "TM0072",
+      "name": "San Facon - KR. 22",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.6494,
+      "y_pct": 0.63332,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/f779ca14-2672-4074-aaa8-5b0e6df1175d.jpg"
+    },
+    {
+      "id": 89,
+      "code": "TM0073",
+      "name": "Ricaurte (CL 13)",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.65059,
+      "y_pct": 0.57699,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/af7b9d47-8093-4648-87f4-40cfce220382.jpg"
+    },
+    {
+      "id": 90,
+      "code": "TM0074",
+      "name": "CDS - Carrera 32",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.6494,
+      "y_pct": 0.53472,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9bee99a8-e5f6-415b-afdd-223f0c15fa7f.jpg"
+    },
+    {
+      "id": 91,
+      "code": "TM0075",
+      "name": "Zona Industrial",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.65031,
+      "y_pct": 0.50492,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/8f7cf039-b89d-4bee-ba08-03553e7101dc.jpg"
+    },
+    {
+      "id": 92,
+      "code": "TM0076",
+      "name": "Carrera 43 - COMAPAN",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.65031,
+      "y_pct": 0.47512,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/02630f8e-c327-4ba3-87aa-dcf59fddfd7d.jpg"
+    },
+    {
+      "id": 93,
+      "code": "TM0077",
+      "name": "Puente Aranda",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.64986,
+      "y_pct": 0.44774,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/db4f5034-27e9-4348-a861-f922882ff688.jpg"
+    },
+    {
+      "id": 94,
+      "code": "TM0078",
+      "name": "Distrito Grafiti",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.64987,
+      "y_pct": 0.41946,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/171e4cfb-d11f-4023-90d4-85e1912eb0cb.jpg"
+    },
+    {
+      "id": 95,
+      "code": "TM0079",
+      "name": "Pradera - Plaza Central",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.66347,
+      "y_pct": 0.38147,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/24c50c2f-b5bc-4da6-b781-051bf519f542.jpg"
+    },
+    {
+      "id": 96,
+      "code": "TM0080",
+      "name": "Marsella",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.68144,
+      "y_pct": 0.35212,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/24419150-7884-4dee-aaea-ab9d9c8ed8cb.jpg"
+    },
+    {
+      "id": 97,
+      "code": "TM0081",
+      "name": "Av Américas -Av. Boyacá",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.69747,
+      "y_pct": 0.32363,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/8abf5d5f-74fe-47b5-a03f-cb6f4595b33f.jpg"
+    },
+    {
+      "id": 98,
+      "code": "TM0082",
+      "name": "Mandalay",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.7169,
+      "y_pct": 0.29774,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/7040645e-9547-46ef-89d5-229741168670.jpg"
+    },
+    {
+      "id": 99,
+      "code": "TM0083",
+      "name": "Banderas",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.72078,
+      "y_pct": 0.2753,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/3dcb787a-b2df-44bf-a478-b8b1c6124ba6.jpg"
+    },
+    {
+      "id": 100,
+      "code": "TM0084",
+      "name": "Transversal 86",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.72127,
+      "y_pct": 0.24681,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/93335207-9f03-4cd9-a3b3-dbd4e6de6f19.jpg"
+    },
+    {
+      "id": 101,
+      "code": "TM0085",
+      "name": "Biblioteca Tintal",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.74687,
+      "y_pct": 0.20397,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/09476a49-2d8c-4120-8e7b-0924086a65b2.jpg"
+    },
+    {
+      "id": 102,
+      "code": "TM0086",
+      "name": "Patio Bonito",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.76627,
+      "y_pct": 0.20532,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/a4fa910b-9170-42a4-a64d-c9678bb0916b.jpg"
+    },
+    {
+      "id": 103,
+      "code": "TM0087",
+      "name": "Portal Américas",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.78293,
+      "y_pct": 0.20439,
+      "line": {
+        "id": 6,
+        "name": "Américas",
+        "color": "#BB0615"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/eb07a806-803d-40cc-ae2d-73df10fafa8c.jpg"
+    },
+    {
+      "id": 104,
+      "code": "TM0103",
+      "name": "San Mateo",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.86346,
+      "y_pct": 0.16998,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9a29954c-c2d4-47d5-8cad-2b54842102fe.jpg"
+    },
+    {
+      "id": 105,
+      "code": "TM0102",
+      "name": "Terreros Hospital C.V.",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.84852,
+      "y_pct": 0.19761,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/e4f2c05c-0a9b-4988-ad1d-579b28a74ce9.jpg"
+    },
+    {
+      "id": 106,
+      "code": "TM0101",
+      "name": "León XIII",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.83237,
+      "y_pct": 0.22736,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/3fb0bcbf-ab94-4033-95b7-053232ca6838.jpg"
+    },
+    {
+      "id": 107,
+      "code": "TM0100",
+      "name": "La Despensa",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.81683,
+      "y_pct": 0.25499,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/80afeb35-6e91-4031-8e9e-7d29358f766c.jpg"
+    },
+    {
+      "id": 108,
+      "code": "TM0099",
+      "name": "Portal Sur - JFK Coop.Financiera",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.80666,
+      "y_pct": 0.32088,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/f73c7c15-092d-402b-98df-17b2237a7867.jpg"
+    },
+    {
+      "id": 109,
+      "code": "TM0098",
+      "name": "Perdomo",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.80547,
+      "y_pct": 0.34851,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/050d63c5-bd8c-45ff-9c5d-11228f51d6cd.jpg"
+    },
+    {
+      "id": 110,
+      "code": "TM0097",
+      "name": "C.C. Paseo Villa del Río - Madelena",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.80607,
+      "y_pct": 0.37826,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9cc32eaa-fa7c-410a-ae88-abd3653b5cfd.jpg"
+    },
+    {
+      "id": 111,
+      "code": "TM0096",
+      "name": "Sevillana",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.80547,
+      "y_pct": 0.40483,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/93a70033-4cfa-4231-9b6e-5a5a530eb30e.jpg"
+    },
+    {
+      "id": 112,
+      "code": "TM0095",
+      "name": "Venecia",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.80666,
+      "y_pct": 0.43246,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/156d6ac9-486a-4212-8f1c-fd6d4cf4b47c.jpg"
+    },
+    {
+      "id": 113,
+      "code": "TM0094",
+      "name": "Alquería",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.80487,
+      "y_pct": 0.45796,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/d9b4e1de-10cb-4551-b9bb-da93cae552b7.jpg"
+    },
+    {
+      "id": 114,
+      "code": "TM0093",
+      "name": "General Santander",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.79471,
+      "y_pct": 0.47816,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/7ce532c9-cd3f-42bc-ad47-1f6259af298a.jpg"
+    },
+    {
+      "id": 115,
+      "code": "TM0092",
+      "name": "NQS - CL 38A S.",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.77916,
+      "y_pct": 0.50792,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/d903033f-81f6-4564-8e12-a81adbdc06a7.jpg"
+    },
+    {
+      "id": 116,
+      "code": "TM0091",
+      "name": "NQS Calle 30 Sur",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.76324,
+      "y_pct": 0.53539,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/646b559d-8f2a-44bc-8bac-dc74849278a6.jpg"
+    },
+    {
+      "id": 117,
+      "code": "TM0090",
+      "name": "SENA",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.75225,
+      "y_pct": 0.55468,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/4ac3dbe4-8511-4aaa-85e4-2999a7da6bd3.jpg"
+    },
+    {
+      "id": 118,
+      "code": "TM0089",
+      "name": "Santa Isabel",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.74208,
+      "y_pct": 0.56424,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/428c2a91-8b32-4212-8a51-e365a335938c.jpg"
+    },
+    {
+      "id": 119,
+      "code": "TM0088",
+      "name": "Comuneros",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.72056,
+      "y_pct": 0.56424,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/920a4b9b-e54d-4f85-a9ee-9d3058013358.jpg"
+    },
+    {
+      "id": 120,
+      "code": "TM0104",
+      "name": "Hospital",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.72714,
+      "y_pct": 0.7194,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/e0379875-0346-4a25-ae1c-1b16566063a1.jpg"
+    },
+    {
+      "id": 121,
+      "code": "TM0105",
+      "name": "Hortúa",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.75345,
+      "y_pct": 0.72046,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/07bcba7a-c845-4a28-aede-1f6f8017f160.jpg"
+    },
+    {
+      "id": 122,
+      "code": "TM0106",
+      "name": "Nariño",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.77976,
+      "y_pct": 0.72046,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/2abb6354-854a-4b82-b8ea-4a3f026ed26e.jpg"
+    },
+    {
+      "id": 123,
+      "code": "TM0107",
+      "name": "Fucha",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.80188,
+      "y_pct": 0.70983,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/4837ffa1-1e48-4213-bf5d-250ef5bd5efe.jpg"
+    },
+    {
+      "id": 124,
+      "code": "TM0108",
+      "name": "Restrepo",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.81145,
+      "y_pct": 0.68858,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/a21cc098-e9ee-483e-91a7-912d587d89b1.jpg"
+    },
+    {
+      "id": 125,
+      "code": "TM0109",
+      "name": "Olaya",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.82341,
+      "y_pct": 0.66095,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/1e450b96-f10a-4aa3-a59e-73ce66347b8b.jpg"
+    },
+    {
+      "id": 126,
+      "code": "TM0110",
+      "name": "Quiroga",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.83357,
+      "y_pct": 0.63863,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/39f3ce8d-9cf1-4020-8806-fb2e3faf0748.jpg"
+    },
+    {
+      "id": 127,
+      "code": "TM0111",
+      "name": "Calle 40 Sur",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.84613,
+      "y_pct": 0.61419,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/f8165603-337a-4608-8946-b7d38ea466cc.jpg"
+    },
+    {
+      "id": 128,
+      "code": "TM0112",
+      "name": "Santa Lucía",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.85809,
+      "y_pct": 0.58762,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/0c5203e5-a963-454f-b744-4f71ecb12259.jpg"
+    },
+    {
+      "id": 129,
+      "code": "TM0113",
+      "name": "Socorro",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.88081,
+      "y_pct": 0.55361,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/37ae46de-a08e-4b7b-8b1a-bfc52e811a73.jpg"
+    },
+    {
+      "id": 130,
+      "code": "TM0114",
+      "name": "Consuelo",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.89516,
+      "y_pct": 0.55148,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/1d2075a7-95ee-4aac-8659-a9d02489c888.jpg"
+    },
+    {
+      "id": 131,
+      "code": "TM0115",
+      "name": "Molinos",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.90951,
+      "y_pct": 0.55042,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/3487dbe1-3e5c-46b4-8873-7eea2a481413.jpg"
+    },
+    {
+      "id": 132,
+      "code": "TM0116",
+      "name": "Biblioteca",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.89277,
+      "y_pct": 0.51428,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/acac59c3-7ac1-4e85-b67b-f538146bcd5c.jpg"
+    },
+    {
+      "id": 133,
+      "code": "TM0117",
+      "name": "Parque",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.89696,
+      "y_pct": 0.4909,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/fe3de55e-c311-4ce9-b983-6de3d9c075a8.jpg"
+    },
+    {
+      "id": 134,
+      "code": "TM0119",
+      "name": "Portal del Tunal",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.89875,
+      "y_pct": 0.46222,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/74d8bdff-9c0b-4341-8d90-10a814d72d9e.jpg"
+    },
+    {
+      "id": 135,
+      "code": "TM0118",
+      "name": "Portal de Usme",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.93641,
+      "y_pct": 0.55042,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/bf41f6d1-1f6e-4518-8c12-d4785c1c01c8.jpg"
+    },
+    {
+      "id": 136,
+      "code": "TM0145",
+      "name": "Portal 20 de Julio",
+      "description": null,
+      "type": "portal",
+      "x_pct": 0.83716,
+      "y_pct": 0.81611,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/0081cff5-e4ec-45fd-9216-8d4918d3e275.jpg"
+    },
+    {
+      "id": 137,
+      "code": "TM0144",
+      "name": "Country Sur",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.81982,
+      "y_pct": 0.80548,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/b8680f0b-4a2a-49ce-8e55-e2d9e03ef710.jpg"
+    },
+    {
+      "id": 138,
+      "code": "TM0143",
+      "name": "AV. 1° Mayo",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.79949,
+      "y_pct": 0.80654,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/f597db90-4baa-4dbe-8618-6b8fb87c7de2.jpg"
+    },
+    {
+      "id": 139,
+      "code": "TM0142",
+      "name": "Ciudad Jardín - UAN",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.77916,
+      "y_pct": 0.80548,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/48d786e2-b2e1-4cf2-8b0c-c937d1675097.jpg"
+    },
+    {
+      "id": 140,
+      "code": "TM0141",
+      "name": "Policarpa",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.75703,
+      "y_pct": 0.80654,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/bbed398b-5d33-4945-a734-69bb91ad92ee.jpg"
+    },
+    {
+      "id": 141,
+      "code": "TM0140",
+      "name": "San Bernardo",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.7367,
+      "y_pct": 0.80654,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/1af5dcb5-94b2-4469-a4a7-06581fb1f26f.jpg"
+    },
+    {
+      "id": 142,
+      "code": "TM0139",
+      "name": "Bicentenario",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.71637,
+      "y_pct": 0.80654,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/96c8c175-02d1-4f9c-9361-71f69b758db1.jpg"
+    },
+    {
+      "id": 143,
+      "code": "TM0138",
+      "name": "San Victorino",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.66016,
+      "y_pct": 0.8076,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/9464d249-a6a0-4199-8c04-ce76c6d1c95b.jpg"
+    },
+    {
+      "id": 144,
+      "code": "TM0137",
+      "name": "Las Nieves",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.62368,
+      "y_pct": 0.80866,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/c8a6e760-ac52-414c-bd7d-36036610e315.jpg"
+    },
+    {
+      "id": 145,
+      "code": "TM0136",
+      "name": "San Diego",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.60275,
+      "y_pct": 0.80866,
+      "line": {
+        "id": 11,
+        "name": "Carrera 10",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/5d78a318-8ff2-4fd2-9d13-702dcc67548b.jpg"
+    },
+    {
+      "id": 146,
+      "code": "TM0146",
+      "name": "Museo Nacional - FNG",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.56329,
+      "y_pct": 0.80654,
+      "line": {
+        "id": 12,
+        "name": "Carrera 7",
+        "color": "#00949C"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/6a0b62bf-b2b4-4f8f-ac8d-082e513defbd.jpg"
+    },
+    {
+      "id": 147,
+      "code": "TM0149",
+      "name": "Bosa",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.80606,
+      "y_pct": 0.29219,
+      "line": {
+        "id": 7,
+        "name": "NQS Sur",
+        "color": "#3d9cd7"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/befd17dd-7283-41cc-a9d7-064945432874.jpg"
+    },
+    {
+      "id": 148,
+      "code": "TM0151",
+      "name": "Mirador del Paraíso - TransMiCable",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.9113,
+      "y_pct": 0.38463,
+      "line": {
+        "id": 13,
+        "name": "TransMICable",
+        "color": "#808000"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/0d89e036-6dc5-42b5-84b1-5bfbf130243a.jpg"
+    },
+    {
+      "id": 149,
+      "code": "TM0150",
+      "name": "Juan Pablo II - TransMiCable",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.89815,
+      "y_pct": 0.42608,
+      "line": {
+        "id": 13,
+        "name": "TransMICable",
+        "color": "#808000"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/1a76dff1-6055-4045-8ab4-218ffe547765.jpg"
+    },
+    {
+      "id": 150,
+      "code": "TM0152",
+      "name": "Manitas - TransMiCable",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.90472,
+      "y_pct": 0.40589,
+      "line": {
+        "id": 13,
+        "name": "TransMICable",
+        "color": "#808000"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/b1ceb10f-3240-430b-a5a2-117bb7d99d3a.jpg"
+    },
+    {
+      "id": 151,
+      "code": "TM0190",
+      "name": "Danubio",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.92266,
+      "y_pct": 0.55254,
+      "line": {
+        "id": 8,
+        "name": "Caracas Sur",
+        "color": "#d88c00"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/b143a357-1dfa-413e-8564-518f70a9ddbf.jpg"
+    },
+    {
+      "id": 152,
+      "code": "TM0012",
+      "name": "Calle 19",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.62259,
+      "y_pct": 0.71693,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/058b1ac9-62a1-473f-bafe-860155907d93.jpg"
+    },
+    {
+      "id": 153,
+      "code": "TM0014",
+      "name": "Tercer Milenio",
+      "description": null,
+      "type": "station",
+      "x_pct": 0.68246,
+      "y_pct": 0.71971,
+      "line": {
+        "id": 1,
+        "name": "Caracas",
+        "color": "#00398B"
+      },
+      "image_url": "https://tramites.transmilenio.gov.co/storage/station-maps/markers/optimized/e884c8cc-5dc7-42c7-97f9-2920ed39a4f1.jpg"
+    }
+  ],
+  "sizes": {
+    "station": {
+      "width": 14,
+      "height": 14
+    },
+    "portal": {
+      "width": 20,
+      "height": 20
+    }
+  }
+}
